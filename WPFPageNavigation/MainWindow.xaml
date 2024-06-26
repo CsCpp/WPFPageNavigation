@@ -16,10 +16,15 @@
      <!--//Тело окна-->
         <Border Background="#212529"
                 CornerRadius="20"/>
+        <Grid> <!--//Base Grid //-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="228"/>
+                <ColumnDefinition Width="622"/>
 
-
-
-
+            </Grid.ColumnDefinitions>
+            
+        </Grid>
+  
     </Grid>
     
 </Window>
