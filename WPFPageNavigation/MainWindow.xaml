@@ -174,8 +174,10 @@
             
             
         </Grid>
-        <!--<Button x:Name="CloseApp"
-                Style="{StaticResource ExitApp}"/>-->
+
+        <Button x:Name="CloseApp"
+                Style="{StaticResource ExitApp}"
+              />
     </Grid>
     
 </Window>
