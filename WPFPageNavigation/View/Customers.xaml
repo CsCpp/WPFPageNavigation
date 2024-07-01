@@ -18,5 +18,19 @@
                                Stretch="None"/>
             </Border.Background>
         </Border>
+        <TextBlock Text="Customer ID :"
+                   Foreground="#dbdbdbdb"
+                   FontSize="14"
+                   FontFamily="/Fonts/#Rubik Medium"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Margin="80,154,0,0"/>
+        <TextBlock Text="{Binding CustomerID}"
+                   Foreground="#CED565"
+                   FontSize="12"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Margin="175,154,0,0"/>
+
     </Grid>
 </UserControl>

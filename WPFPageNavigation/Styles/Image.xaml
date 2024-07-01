@@ -7,7 +7,7 @@
         <Setter Property="HorizontalAlignment"
                 Value="Left"/>
 
-        <Setter Property="HorizontalAlignment"
+        <Setter Property="VerticalAlignment"
                Value="Center"/>
         <Setter Property="Stretch"
                 Value="Uniform"/>
